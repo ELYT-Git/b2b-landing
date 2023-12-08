@@ -18,7 +18,7 @@ export const FirstHeader = () => {
                     <button onClick={() => {
                             scrollToId('subscribe');
                         }} className="inline-flex items-start gap-[10px] px-[24px] py-[12px] relative bg-[#ffffff] rounded-[25px] overflow-hidden border-[3px] border-solid border-[#9d71cb] all-[unset] box-border mt-5 mx-auto">
-                        <div className="relative w-fit [font-family:'Rubik-Medium',Helvetica] font-medium text-[#9d71cb] text-[18px] tracking-[0] leading-[36px] whitespace-nowrap">
+                        <div className="relative w-fit [font-family:'Rubik-Medium',Helvetica] font-medium text-[#9d71cb] text-[28px] tracking-[0] leading-[36px] whitespace-nowrap">
                             Kayıt Ol
                         </div>
                     </button>

@@ -21,7 +21,7 @@ const ElytLogo = () => {
 }
 
 const HamburgerLogo = () => {
-    return <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    return <svg className="w-[36px]" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="21.6" y="17.3999" width="20.7" height="2.3" rx="1.15" transform="rotate(-180 21.6 17.3999)" fill="black"/>
     <rect x="21.1" y="16.8999" width="19.7" height="1.3" rx="0.65" transform="rotate(-180 21.1 16.8999)" stroke="#A76ACF" strokeOpacity="0.25"/>
     <rect x="21.6" y="2.44971" width="20.7" height="2.3" rx="1.15" transform="rotate(-180 21.6 2.44971)" fill="black"/>
@@ -32,8 +32,8 @@ const HamburgerLogo = () => {
 }
 
 const Links = {
-    kesfet: () => <Link href="https://elyt.net" target="_blank">
-        <p className="text-[16px] text-black font-[500]">Elyt&apos;i Keşfet</p>
+    kesfet: () => <Link href="https://elyt.net/tr/explore" target="_blank">
+        <p className="text-[28px] text-black font-[500]">Elyt&apos;i Keşfet</p>
     </Link>,
     corporate: () => <Link href="/">
         <p className="text-[16px] text-black font-[500]">Kurumsal Çözümler</p>
@@ -41,7 +41,7 @@ const Links = {
     connect: () => <div onClick={() => {
         scrollToId('subscribe');
     }} className="text-[16px] text-black font-[500]">
-        <button className="h-[45px] px-5 bg-[#A76ACF] rounded-full text-[18px] font-[600] text-white">Kayıt Ol</button>
+        <button className="h-[55px] px-5 bg-[#A76ACF] rounded-full text-[24px] font-[600] text-white">Kayıt Ol</button>
     </div>
 }
 
