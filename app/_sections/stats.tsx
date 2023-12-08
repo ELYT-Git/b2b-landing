@@ -23,7 +23,7 @@ export const Stats = () => {
             </div>
             <div className="text-[36px] font-[600] hidden md5:block">
                 <div className="w-[171px] h-[60px]">
-                    <img className="w-[171px] h-[60px] rounded-[13px] object-cover" alt="finberg" src="finberg_button.webp" />
+                    <img className="w-[171px] rounded-[9px] object-cover" alt="finberg" src="finberg_button.webp" />
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@ export const Stats = () => {
                 </div>
                 <div className="text-[36px] font-[600]">
                     <div className="w-[100px] md:w-[171px]">
-                        <img className="w-full rounded-[5px] md:rounded-[13px] object-cover" alt="finberg" src="finberg_button.webp" />
+                        <img className="w-full rounded-[5px] md:rounded-[8px] object-cover" alt="finberg" src="finberg_button.webp" />
                     </div>
                 </div>
             </div>
