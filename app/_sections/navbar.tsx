@@ -41,7 +41,7 @@ const Links = {
     connect: () => <div onClick={() => {
         scrollToId('subscribe');
     }} className="text-[16px] text-black font-[500]">
-        <button className="h-[55px] px-5 bg-[#A76ACF] rounded-full text-[24px] font-[600] text-white">Kayıt Ol</button>
+        <button className="h-[55px] px-12 bg-[#A76ACF] rounded-full text-[24px] font-[600] text-white">Kayıt Ol</button>
     </div>
 }
 
