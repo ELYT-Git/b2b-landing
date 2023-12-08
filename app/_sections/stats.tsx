@@ -12,9 +12,9 @@ const Stat = ({value, label}: {value: string, label: string}) => {
 export const Stats = () => {
     return <div className="w-full py-[5%] px-[5%] md:px-[10%] relative overflow-hidden">
         <div className="flex space-x-5 justify-between w-full items-center max-w-container mx-auto">
-            <Stat value="+25 K" label="Aktif Kullanıcı"/>
-            <Stat value="+500 K" label="Toplam Satılan NFT"/>
-            <Stat value="+1.5 K" label="Dağıtılan Hediye"/>
+            <Stat value="+25B" label="Aktif Kullanıcı"/>
+            <Stat value="+500B" label="Toplam Satılan NFT"/>
+            <Stat value="+1.5B" label="Dağıtılan Hediye"/>
             <div className="text-[36px] font-[600] hidden md5:block">
                 Alınan Yatırımlar
             </div>
