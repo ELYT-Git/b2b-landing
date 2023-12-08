@@ -21,7 +21,7 @@ const ElytLogo = () => {
 }
 
 const HamburgerLogo = () => {
-    return <svg className="w-[36px]" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    return <svg className="w-[22px] md:w-[36px]" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="21.6" y="17.3999" width="20.7" height="2.3" rx="1.15" transform="rotate(-180 21.6 17.3999)" fill="black"/>
     <rect x="21.1" y="16.8999" width="19.7" height="1.3" rx="0.65" transform="rotate(-180 21.1 16.8999)" stroke="#A76ACF" strokeOpacity="0.25"/>
     <rect x="21.6" y="2.44971" width="20.7" height="2.3" rx="1.15" transform="rotate(-180 21.6 2.44971)" fill="black"/>
