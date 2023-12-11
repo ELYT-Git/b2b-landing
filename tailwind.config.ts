@@ -11,6 +11,7 @@ const config: Config = {
       screens: {
         "xs": "360px",
         "md5": "1370px",
+        "3xl": '1800px'
       },
       maxWidth: {
         container: '1570px',

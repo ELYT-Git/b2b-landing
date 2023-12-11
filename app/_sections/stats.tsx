@@ -1,6 +1,6 @@
 const Stat = ({value, label}: {value: string, label: string}) => {
     return <div>
-        <div className="text-[24px] md:text-[44px] md5:text-[30px] 2xl:text-[44px] text-center font-[600]">
+        <div className="text-[24px] md:text-[44px] md5:text-[30px] 2xl:text-[36px] 3xl:text-[44px] text-center font-[600]">
             {value}
         </div>
         <div className="text-center text-[#828282] text-[16px] md:text-[18px]">
@@ -18,10 +18,10 @@ export const Stats = () => {
                 <Stat value="+1.5B" label="Dağıtılan Hediye"/>
             </div>
             <div className="flex space-x-5 justify-between items-center col-span-6">
-                <div className="text-[38px] md5:text-[30px] 2xl:text-[34px] font-[600] hidden md5:block">
+                <div className="text-[38px] md5:text-[30px] 2xl:text-[32px] 3xl:text-[44px] font-[600] hidden md5:block">
                     Alınan Yatırımlar
                 </div>
-                <div className="text-[38px] md5:text-[30px] 2xl:text-[34px] font-[600] hidden md5:block">
+                <div className="text-[38px] md5:text-[30px] 2xl:text-[32px] 3xl:text-[44px] font-[600] hidden md5:block">
                     1.5M $
                 </div>
                 <div className="text-[36px] font-[600] hidden md5:block pb-3">
