@@ -47,10 +47,10 @@ export const Stats = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center mt-10 md5:mb-0 md5:col-span-6">
-                <div className="text-[24px] md:text-[32px] md5:text-[44px] font-[300]">
+                <div className="text-[24px] md:text-[32px] md5:text-[44px] 2xl:text-[54px] font-[300]">
                     <span className="font-[600]">10+</span> Marka
                 </div>
-                <img alt="brands" src="Group 162748.webp" className="h-[50px] md5:h-[111px] ml-5 md5:ml-auto md5:mr-2"/>
+                <img alt="brands" src="Group 162748.webp" className="h-[50px] md5:h-[111px] 2xl:h-[120px] ml-5 md5:ml-auto md5:mr-2"/>
             </div>
             <div className="flex items-center justify-center md5:order-1 mt-10 md5:col-span-6">
                 <div className="md5:ml-auto text-[18px] md:text-[34px] lg:text-[30px] 2xl:text-[36px] font-[500]">
