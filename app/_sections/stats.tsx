@@ -18,10 +18,10 @@ export const Stats = () => {
                 <Stat value="+1.5B" label="Dağıtılan Hediye"/>
             </div>
             <div className="flex space-x-5 justify-between items-center col-span-6">
-                <div className="text-[38px] md5:text-[24px] 2xl:text-[34px] font-[600] hidden md5:block">
+                <div className="text-[38px] md5:text-[30px] 2xl:text-[34px] font-[600] hidden md5:block">
                     Alınan Yatırımlar
                 </div>
-                <div className="text-[38px] md5:text-[24px] 2xl:text-[34px] font-[600] hidden md5:block">
+                <div className="text-[38px] md5:text-[30px] 2xl:text-[34px] font-[600] hidden md5:block">
                     1.5M $
                 </div>
                 <div className="text-[36px] font-[600] hidden md5:block pb-3">

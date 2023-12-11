@@ -30,7 +30,7 @@ export const Subscribe = () => {
             <img alt="subscribe_background" className="mt-[-30%] mb-[-30%] z-[-1] max-w-[99999px] w-[150%] ml-[-25%] md5:ml-0 md5:w-full block md:hidden" src="bg_contact_mobile.webp"/>
             <div className="absolute w-full h-full left-0 top-0 flex items-center justify-center">
                 <div id="subscribe" className="w-full max-w-container mx-auto mt-[-50%] sm:mt-[-10%] md:mt-0">
-                    <img alt="book" src="book.webp" className="w-[55%] md:w-[20%] mx-auto"/>
+                    <img alt="book" src="book.webp" className="w-[55%] md:w-[20%] mx-auto mt-[-18%] md:mt-0"/>
                     <div className="text-[22px] xs:text-[24px] sm:text-[30px] md:text-[44px] font-[300] w-fit mx-auto text-center">
                         <span className="font-[600]">Bültenimize abone olun</span> ve <br/>
                         <span className="font-[600]">hediye hatıra kartınızı</span> alın
