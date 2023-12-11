@@ -1,6 +1,6 @@
 const Stat = ({value, label}: {value: string, label: string}) => {
     return <div>
-        <div className="text-[24px] md:text-[44px] text-center font-[600]">
+        <div className="text-[24px] md:text-[44px] md5:text-[30px] 2xl:text-[44px] text-center font-[600]">
             {value}
         </div>
         <div className="text-center text-[#828282] text-[16px] md:text-[18px]">
