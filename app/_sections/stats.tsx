@@ -32,12 +32,12 @@ export const Stats = () => {
             </div> 
         </div>
 
-        <div className="grid grid-cols-1 md5:grid-cols-12 mt-10 justify-between w-full items-center max-w-container mx-auto">
+        <div className="grid grid-cols-1 md5:grid-cols-12 mt-10 gap-x-10 justify-between w-full items-center max-w-container mx-auto">
             <div className="flex items-center md5:hidden justify-center space-x-2 md:space-x-10">
-                <div className="text-[15px] xs:text-[18px] md:text-[36px] font-[600]">
+                <div className="text-[15px] xs:text-[18px] md:text-[30px] md5:text-[36px] font-[600]">
                     Alınan Yatırımlar
                 </div>
-                <div className="text-[15px] xs:text-[18px] md:text-[36px] font-[600]">
+                <div className="text-[15px] xs:text-[18px] md:text-[30px] md5:text-[36px] font-[600]">
                     1.5M $
                 </div>
                 <div className="text-[36px] font-[600]">
@@ -53,7 +53,7 @@ export const Stats = () => {
                 <img alt="brands" src="Group 162748.webp" className="h-[50px] md5:h-[111px] 2xl:h-[120px] ml-5 md5:ml-auto md5:mr-2"/>
             </div>
             <div className="flex items-center justify-center md5:order-1 mt-10 md5:col-span-6">
-                <div className="md5:ml-auto text-[18px] md:text-[34px] lg:text-[30px] 2xl:text-[36px] font-[500]">
+                <div className="text-[18px] md:text-[34px] lg:text-[30px] 2xl:text-[35px] font-[500]">
                     Desteklenen Blockchain Ağı
                 </div>
                 <img alt="avax" src="avax.webp" className="h-[34px] md5:h-[111px] ml-5 md5:ml-auto"/>
