@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Elyt For Business',
-  description: 'Improve your business with Elyt',
+  title: 'ELYT | Kurumsal Sadakat Programı',
+  description: 'Müşterilerinizle ilişkinizi sadakat programları ile güçlendirin. ELYT ile müşterilerinizin sadakatini ödüllendirin.',
   openGraph: {
     images: 'memory_token.webp',
   },
