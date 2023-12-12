@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'ELYT | Kurumsal Sadakat Programı',
   description: 'Müşterilerinizle ilişkinizi sadakat programları ile güçlendirin. ELYT ile müşterilerinizin sadakatini ödüllendirin.',
   openGraph: {
-    images: 'https://business.elyt.dev/memory_token.webp',
+    images: 'https://business.elyt.net/memory_token.webp',
   },
 }
 
