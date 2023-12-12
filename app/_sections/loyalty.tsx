@@ -10,7 +10,7 @@ const Subject = ({title, description}: {title: string, description: string}) => 
 }
 
 const LoyaltyTitle = ({title, description}: {title: string, description: string}) => {
-    return <div className={`bg-[#C9DEFF] md5:bg-[#E6E8FA] w-[360px] max-w-[95vw] ${description ? 'md:h-[220px]': 'md:h-[155px]'} py-[24px] px-[47px] rounded-[25px] mb-[18px]`}>
+    return <div className={`bg-[#C9DEFF] md5:bg-[#E6E8FA] w-[380px] max-w-[95vw] ${description ? 'md:h-[160px]': 'md:h-[130px]'} py-[24px] px-[47px] rounded-[25px] mb-[18px]`}>
         <div className="text-[24px] font-[600]">
             {title}
         </div>
