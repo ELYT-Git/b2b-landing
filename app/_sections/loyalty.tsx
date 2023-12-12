@@ -25,15 +25,15 @@ export const Loyalty = () => {
         <div className="w-full">
             <div className="mx-auto md5:ml-auto md5:mr-0 w-fit">
                 <LoyaltyTitle
-                    title="Loyalty Sistemim Var"
+                    title="Sadakat Sistemim Var"
                     description="Mevcut sadakat programınızı ELYT’e kolayca bağlayabilirsiniz."
                 />
             </div>
             <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:pr-[90px] md5:pl-[20%] rounded-t-[36px] md5:rounded-l-none md5:rounded-r-[36px]">
                 <div className="md5:max-w-halfContainer md5:ml-auto md5:h-[300px]">
                     <Subject 
-                        title={`Mevcut Loyalty Sistemlerine nasıl entegre oluyoruz?`}
-                        description={'Halihazırda bir sadakat sisteminiz varsa mevcut kurgularınızı ELYT’in sunduğu API’ler ve markanıza özel geliştirebileceğimiz dijital hatıralıklar ile çok daha güçlü bir yapıya kavuşturabilirsiniz.'}
+                        title={`Bir Sadakat Sisteminiz Zaten Varsa;`}
+                        description={'Mevcut bir sadakat sisteminiz varsa bu sistemi hiç değiştirmeden, ELYT’in sunduğu çözümler ile daha modern ve yenilikçi uygulmalara adım atabilirsiniz.'}
                     />
                 </div>
             </div>
@@ -42,15 +42,15 @@ export const Loyalty = () => {
         <div className="w-full">
             <div className="mx-auto md5:mr-auto md5:ml-0 w-fit">
                 <LoyaltyTitle
-                    title="Loyalty Sistemim Yok"
+                    title="Sadakat Sistemim Yok"
                     description="ELYT sizin için en uygun senaryoları kurgulamaya hazır."
                 />
             </div>
             <div className="bg-[#E6E8FA] md5:bg-[#ECF1F9] py-[70px] px-[45px] md5:pl-[90px] md5:pr-[20%] rounded-t-[36px] md5:rounded-r-none md5:rounded-l-[36px]">
                 <div className="md5:max-w-halfContainer md5:h-[300px]">
                     <Subject 
-                        title={`Hemen bugün bir loyalty çözümüne mi ihtiyacınız var?`}
-                        description={'ELYT olarak ihtiyacınız olan sadakat programını sizin için uçtan uca tasarlayabiliriz. Güçlü görseller, interaktif etkileşimler, oyunlaştırma öğeleri ve fark yaratacak değer önerileri ile hedef kitlenizle ilişkinizi çağın ötesine taşıyın.'}
+                        title={`Bir Sadakat Sisteminiz Yoksa;`}
+                        description={'Uçtan uca modern bir sadakat programını sizin için tasarlıyoruz. Güçlü görseller, oyunlaştırma öğeleri ve fark yaratacak değer önerileri ile hedef kitlenizle ilişkinizi çağın ötesine taşımanızı sağlıyoruz.'}
                     />
                 </div>
             </div>

@@ -3,9 +3,9 @@ export const MemoryToken = () => {
         <div className="w-full md5:grid md:grid-cols-2 md5:grid-cols-3  max-w-container mx-auto">
             <div className="col-span-2 md5:pr-12 flex items-center">
                 <div>
-                    <div className="text-[48px] font-[600] md5:text-[#3F3B3B] w-full h-fit text-center md5:text-left">Dijital Hatıralık Nedir?</div>
+                    <div className="text-[48px] font-[600] md5:text-[#3F3B3B] w-full h-fit text-center md5:text-left">Hatıra Koleksiyon Kartı Nedir?</div>
                     <div className="text-[24px] font-[400] md5:text-[#3F3B3B] w-full h-fit mt-8 text-center md5:text-left">
-                        Dijital hatıralık hedef kitlenizle aranızdaki bağı güçlendirmeyi sağlayan ve markanıza özel tasarlanmış, güçlü görselleri olan dijital varlıklardır. Bu varlıkları sayısız senaryo çerçevesinde duygusal bağlar geliştirmek ve çeşitli avantajlar sunmak için kurgulayabilirsiniz. Bu sayede gerek sunduğunuz değerlerle gerekse de geliştirdiğiniz duygusal bağlarla müşterilerinizin aklında hiç olmadığı kadar güçlü yer edineceksiniz.
+                    Hatıra Koleksiyon Kartları hedef kitlenizle aranızdaki bağı güçlendirmeyi sağlayan ve markanıza özel tasarlanmış, güçlü görsellere olan dijital varlıklardır. Bu varlıkları sayısız senaryo çerçevesinde müşterilerinizle duygusal bağlar kurmak ve onlara çeşitli avantajlar sunmak için kullanabilirsiniz. Bu sayede sunduğunuz fırsatlar ve geliştirdiğiniz duygusal bağlar sayesinde, müşterilerinizin aklında hiç olmadığı kadar güçlü yer edineceksiniz.
                     </div>
                 </div>
             </div>

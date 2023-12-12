@@ -6,7 +6,7 @@ export const Footer = () => {
             <div className="text-[#545B98]">
                 © {
                     new Date().getFullYear()
-                } Elyt Networks, Inc
+                } ELYT TEKNOLOJİ
             </div>
             <div className="text-[#545B98] mt-5 md:mt-0 flex space-x-3 w-fit mx-auto md:mx-0">
                 <Link href={"https://static.elyt.net/legal/ELYT.Privacy_Policy.pdf"} target="_blank">Privacy Policy</Link>   <p>|</p>   

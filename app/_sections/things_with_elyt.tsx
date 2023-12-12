@@ -96,8 +96,8 @@ export const ThingsWithElty = () => {
                 />
                 <Thing 
                     icon="creditcard"
-                    title={<>Ek Gelirler İçin <span className="font-[600]">Kredi Kartı & Avax İle Satış</span></>}
-                    description="Arz edilen hatıralıkların kredi kartı ya da web3 üzerinden Avax token ile satışı."
+                    title={<>Ek Gelirler İçin <span className="font-[600]">Ödeme Entegrasyonu</span></>}
+                    description="Dijital varlıkların satışına yönelik gelişmiş kredi kartı ve Web3 entegrasyonu"
                 />
             </div>
         </div>

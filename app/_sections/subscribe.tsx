@@ -32,8 +32,10 @@ export const Subscribe = () => {
                 <div id="subscribe" className="w-full max-w-container mx-auto mt-[-50%] sm:mt-[-10%] md:mt-0">
                     <img alt="book" src="book.webp" className="w-[55%] md:w-[20%] mx-auto mt-[-18%] md:mt-0"/>
                     <div className="text-[22px] xs:text-[24px] sm:text-[30px] md:text-[44px] font-[300] w-fit mx-auto text-center">
-                        <span className="font-[600]">Bültenimize abone olun</span> ve <br/>
-                        <span className="font-[600]">hediye hatıra kartınızı</span> alın
+                        Hemen <span className="font-[600]">Özel Raporumuzu</span> ve <br/>
+                        <span className="font-[600]">Hediye Hatıra Kartınızı</span> Alın
+                        {/*<span className="font-[600]">Bültenimize abone olun</span> ve <br/>
+                        <span className="font-[600]">hediye hatıra kartınızı</span> alın*/}
                     </div>
                     {!submitted ? <><div className={`${emailValid ? 'border-[#564B8F]': 'border-[#ff4949] border-[2px]'} border-[#564B8F] h-[56px] border mt-5 w-fit mx-auto rounded-[25px] overflow-hidden`}>
                         <form onSubmit={(e) => {
@@ -54,7 +56,6 @@ export const Subscribe = () => {
                             <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Abone Ol" className="h-[55px] max-w-[50vw] px-5 md:px-10 bg-[#A76ACF] text-[20px] font-[600] text-white"/>
                         </form>
                     </div>
-                    <div className="text-[18px] xs:text-[20px] text-[#828282] font-[300] text-center mt-5">Lütfen <span className="font-[600]">kurumsal</span> mail adresinizi girin!</div>
                     </>: <div className="mt-5 w-fit mx-auto text-[44px] rounded-[25px] overflow-hidden">
                             Teşekkürler!
                         </div>

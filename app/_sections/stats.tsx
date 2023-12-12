@@ -13,9 +13,9 @@ export const Stats = () => {
     return <div className="w-full py-[5%] px-[5%] md:px-[10%] relative overflow-hidden">
         <div className="grid grid-cols-1 md5:grid-cols-12 gap-x-10 w-full items-center max-w-container mx-auto">
             <div className="flex space-x-5 justify-between items-center col-span-6">
-                <Stat value="+25B" label="Aktif Kullanıcı"/>
-                <Stat value="+500B" label="Toplam Satılan NFT"/>
-                <Stat value="+1.5B" label="Dağıtılan Hediye"/>
+                <Stat value="30B+" label="Kullanıcı"/>
+                <Stat value="175B+" label="Dijital Varlık"/>
+                <Stat value="1600+" label="Dağıtılan Hediye"/>
             </div>
             <div className="flex space-x-5 justify-between items-center col-span-6">
                 <div className="text-[38px] md5:text-[30px] 2xl:text-[32px] 3xl:text-[44px] font-[600] hidden md5:block">
@@ -48,7 +48,7 @@ export const Stats = () => {
             </div>
             <div className="flex items-center justify-center mt-10 md5:mb-0 md5:col-span-6">
                 <div className="text-[24px] md:text-[32px] md5:text-[44px] 2xl:text-[54px] font-[300]">
-                    <span className="font-[600]">10+</span> Marka
+                    <span className="font-[600]">20+</span> Marka
                 </div>
                 <img alt="brands" src="Group 162748.webp" className="h-[50px] md5:h-[111px] 2xl:h-[120px] ml-5 md5:ml-auto md5:mr-2"/>
             </div>
