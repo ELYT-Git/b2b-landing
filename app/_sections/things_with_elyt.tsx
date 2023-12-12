@@ -65,7 +65,7 @@ const Thing = ({icon, title, description}: {icon: string, title: any, descriptio
 }
 
 export const ThingsWithElty = () => {
-    return <div className="w-full py-[5%] px-[5%] md:px-[10%] relative overflow-hidden z-10">
+    return <div className="w-full pb-[5%] px-[5%] md:px-[10%] relative overflow-hidden z-10">
         <div className="max-w-container mx-auto">
             <div className="text-[35px] md:text-[68px] font-[300] text-left"><span className="font-[600]">ELYT</span> ile yapabilecekleriniz</div>
             <div className="grid grid-cols-1 lg:grid-cols-2 md5:grid-cols-3 gap-x-[40px] gap-y-[67px] mt-[30px] md:mt-[67px]">
