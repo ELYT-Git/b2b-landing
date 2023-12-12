@@ -9,7 +9,7 @@ export const FirstHeader = () => {
         <div className="w-full max-w-container mx-auto z-[1]">
             <div className="md:max-w-[800px] z-10">
                 <div className="text-white text-[44px] md:text-header1 mt-[50px] font-[300] md:leading-[64px]">
-                    Puanlar tükenir, miller uçar, <span className="font-[600]">ELYT</span> ile hatıralar sonsuza kadar kalır.
+                    Puanlar tükenir, miller uçar, <span className="font-[600]">ELYT</span> ile hatıralar sonsuza dek yaşar.
                 </div>
                 <div className="text-white text-subtitle2 font-[500] mt-5 w-full text-center md:text-left">
                     ELYT kurumsal avantajlarını keşfedin
