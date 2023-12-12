@@ -37,10 +37,16 @@ export const Loyalty = () => {
                     />
                 </div>
             </div>
+            <div className="mx-auto md5:ml-auto md5:mr-0 w-fit mt-5">
+                <LoyaltyTitle
+                    title="Müşteri Dönüşlerinde Yüzde 50'ye Varan Artış"
+                    description=""
+                />
+            </div>
         </div>
 
         <div className="w-full">
-            <div className="mx-auto md5:mr-auto md5:ml-0 w-fit">
+            <div className="mx-auto md5:mr-auto md5:ml-0 w-fit mt-[100px] md5:mt-0">
                 <LoyaltyTitle
                     title="Sadakat Sistemim Yok"
                     description="ELYT sizin için en uygun senaryoları kurgulamaya hazır."
@@ -53,6 +59,12 @@ export const Loyalty = () => {
                         description={'Uçtan uca modern bir sadakat programını sizin için tasarlıyoruz. Güçlü görseller, oyunlaştırma öğeleri ve fark yaratacak değer önerileri ile hedef kitlenizle ilişkinizi çağın ötesine taşımanızı sağlıyoruz.'}
                     />
                 </div>
+            </div>
+            <div className="mx-auto md5:mr-auto md5:ml-0 w-fit mt-5">
+                <LoyaltyTitle
+                    title="Cironuzda Yıllık Yüzde 20'ye Varan Artış"
+                    description=""
+                />
             </div>
         </div>
     </div>
