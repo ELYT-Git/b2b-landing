@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Elyt For Business',
   description: 'Improve your business with Elyt',
+  openGraph: {
+    images: 'memory_token.webp',
+  },
 }
 
 export default function RootLayout({
