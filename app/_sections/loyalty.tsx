@@ -44,9 +44,9 @@ export const Loyalty = () => {
                 />
             </div>
         </div>
-
+        <hr className="md5:hidden shadow-lg border-[2px]"/>
         <div className="w-full">
-            <div className="mx-auto md5:mr-auto md5:ml-0 w-fit mt-[100px] md5:mt-0">
+            <div className="mx-auto md5:mr-auto md5:ml-0 w-fit md5:mt-0">
                 <LoyaltyTitle
                     title="Sadakat Sistemim Yok"
                     description="ELYT sizin için en uygun senaryoları kurgulamaya hazır."
