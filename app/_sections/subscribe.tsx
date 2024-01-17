@@ -52,8 +52,8 @@ export const Subscribe = () => {
                                 }
                                 setEmailValid(true);
                             }} className="flex" method="POST" action="https://db193fbe.sibforms.com/serve/MUIFAIjoOHvvcm35cfOvxw_j4_RfBidorEahahYorZvoqbH9ck9VnOG3CL3880emW0Jh3j0kbfO_nPsnLN-sovCtLHZBGOIp0VBIKe5_JVzeGQozTiwdKbU2-SsLPSQZMdLVTvJgyAjjXjdLI6DvdP6XArvtZNVjd6rpg4gDPMjpyf9tYB2Ji5qvTdo43WkZcg0Z9WxcalYeRfmH" data-type="subscription">
-                            <input type="email" name="EMAIL" id="EMAIL" required={true} className="w-[250px] md:w-[300px] max-w-[50vw] h-[55px] border-none rounded-[5px] px-5" placeholder="Kurumsal E-posta Adresiniz"/>
-                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Kayıt Ol" className="h-[55px] max-w-[50vw] px-5 md:px-10 bg-[#A76ACF] text-[20px] font-[600] text-white"/>
+                            <input type="email" name="EMAIL" id="EMAIL" required={true} className="w-[280px] md:w-[300px] text-[11px] md:text-[18px] max-w-[50vw] h-[55px] border-none rounded-[5px] px-5" placeholder="Kurumsal E-posta Adresiniz"/>
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Kayıt Ol" className="h-[55px] max-w-[50vw] px-5 md:px-10 bg-[#A76ACF] text-[14px] md:text-[20px] font-[600] text-white"/>
                         </form>
                     </div>
                     </>: <div className="mt-5 w-fit mx-auto text-[44px] rounded-[25px] overflow-hidden">
