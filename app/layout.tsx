@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://*.google.com; style-src 'self' 'unsafe-inline' https://*.googleapis.com; img-src 'self' data:; connect-src 'self'; font-src 'self' https://*.gstatic.com; object-src 'none'; frame-src 'none';"/>
+      <meta httpEquiv="Content-Security-Policy" content="frame-ancestors 'none';"/>
       <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
       <body className={inter.className}>{children}</body>
     </html>
